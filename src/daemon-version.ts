@@ -38,7 +38,7 @@
  * by TypeScript — a typo (`"lates"`) becomes a compile error rather
  * than a runtime "release not found" 30 seconds into the build.
  *
- * Current pin: `1.191.1`. The floor is `1.158.0` (hoop#1722, DEP-142):
+ * Current pin: `1.191.1`. The floor is `1.158.0` (hoophq/hoop#1722, DEP-142):
  * older daemons relay every database connection as raw TCP, so the
  * client faces the upstream's own auth challenge and the fixed
  * `noop`/`noop` credentials that `hsh tunnel ls` prints are rejected.
@@ -47,7 +47,7 @@
  * `1.86.0` added the tunnel up/down lifecycle endpoints and
  * connection-list refresh that `hsh tunnel up|down|refresh` depend on.
  * Bump this when cutting a new hsh release against a newer,
- * fully-uploaded hoop release.
+ * fully-uploaded Hoop release.
  *
  * # Build-time stamp file
  *
